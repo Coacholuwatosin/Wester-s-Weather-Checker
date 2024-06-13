@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wester's | Your Ultimate Weather Companion</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <section>
+        <header>
+            <h1 id="title">Wester's Weather</h1>
+            <p id="subDesc">Your Ultimate Weather Companion</p>
+        </header>
+               
+
+        <div id="inputCon">
+            <input id="enterCity" type="text" placeholder="Enter your city name">
+            <button id="search" onclick="fetchWeather()">Search</button>
+        </div>
+
+        <div id="resultCon">
+            <div id="col1">
+                <div id="resultSub1">
+                    <h1 id="temperature"></h1>
+                    <p id="cityName"></p>
+                    <p id="description2"></p>
+                </div>
+            </div>
+
+            <div id="col2">
+                <div class="row">
+                    <label for="location">Location:</label>
+                    <div id="location">...</div>
+                </div>
+                <div class="row">
+                    <label for="description">Description:</label>
+                    <div id="description">...</div>
+                </div>
+                <div class="row">
+                    <label for="humidity">Humidity:</label>
+                    <div id="humidity">...</div>
+                </div>
+                <div class="row">
+                    <label for="wind">Wind:</label>
+                    <div id="wind">...</div>
+                </div>
+                <hr>
+                <div class="row">
+                    <label for="min">Min:</label>
+                    <div id="min">...</div>
+                </div>
+                <div class="row">
+                    <label for="max">Max:</label>
+                    <div id="max">...</div>
+                </div>
+                <div class="row">
+                    <label for="feels">Feels:</label>
+                    <div id="feels">...</div>
+                </div>
+                <div class="row">
+                    <label for="pressure">Pressure:</label>
+                    <div id="pressure">...</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Weather Application developed by <a href="https://oluwatosinadegboye.carrd.co" target="_blank" class="developer-link">Paultechnolog</a></p>
+    </footer>    
+    
+    <script src="script.js"></script>
+</body>
+</html>

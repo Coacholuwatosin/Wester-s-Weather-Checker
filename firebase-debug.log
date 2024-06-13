@@ -1,0 +1,114 @@
+[debug] [2024-06-13T15:04:02.552Z] ----------------------------------------------------------------------
+[debug] [2024-06-13T15:04:02.557Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\oluwa\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-06-13T15:04:02.558Z] CLI Version:   13.11.2
+[debug] [2024-06-13T15:04:02.558Z] Platform:      win32
+[debug] [2024-06-13T15:04:02.559Z] Node Version:  v20.14.0
+[debug] [2024-06-13T15:04:02.559Z] Time:          Thu Jun 13 2024 16:04:02 GMT+0100 (West Africa Standard Time)
+[debug] [2024-06-13T15:04:02.559Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-13T15:04:02.574Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-13T15:04:02.575Z] > authorizing via signed-in user (adegboyeoluwatosin2@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\oluwa\OneDrive\Documents\SQUI CLASS INFO\LEVEL TWO\ASSIGNMENT\Weather Application
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-06-13T15:04:24.681Z] > refreshing access token with scopes: []
+[debug] [2024-06-13T15:04:24.684Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-06-13T15:04:24.685Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-13T15:04:25.644Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-06-13T15:04:25.645Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-13T15:04:25.675Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-06-13T15:04:26.609Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-06-13T15:04:26.610Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2024-06-13T15:05:09.620Z] ----------------------------------------------------------------------
+[debug] [2024-06-13T15:05:09.624Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\oluwa\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-06-13T15:05:09.624Z] CLI Version:   13.11.2
+[debug] [2024-06-13T15:05:09.625Z] Platform:      win32
+[debug] [2024-06-13T15:05:09.625Z] Node Version:  v20.14.0
+[debug] [2024-06-13T15:05:09.625Z] Time:          Thu Jun 13 2024 16:05:09 GMT+0100 (West Africa Standard Time)
+[debug] [2024-06-13T15:05:09.625Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-13T15:05:09.635Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-13T15:05:09.635Z] > authorizing via signed-in user (adegboyeoluwatosin2@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\oluwa\OneDrive\Documents\SQUI CLASS INFO\LEVEL TWO\ASSIGNMENT\Weather Application
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-06-13T15:06:23.220Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-06-13T15:06:23.221Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"Wester's Weather Checker","name":"Wester's Weather Checker"}
+[debug] [2024-06-13T15:06:24.432Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-06-13T15:06:24.433Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-06-13T15:06:24.856Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at responseToError (C:\Users\oluwa\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\oluwa\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2024-06-13T15:08:03.022Z] ----------------------------------------------------------------------
+[debug] [2024-06-13T15:08:03.028Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\oluwa\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-06-13T15:08:03.029Z] CLI Version:   13.11.2
+[debug] [2024-06-13T15:08:03.030Z] Platform:      win32
+[debug] [2024-06-13T15:08:03.030Z] Node Version:  v20.14.0
+[debug] [2024-06-13T15:08:03.030Z] Time:          Thu Jun 13 2024 16:08:03 GMT+0100 (West Africa Standard Time)
+[debug] [2024-06-13T15:08:03.031Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-13T15:08:03.052Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-13T15:08:03.053Z] > authorizing via signed-in user (adegboyeoluwatosin2@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\oluwa\OneDrive\Documents\SQUI CLASS INFO\LEVEL TWO\ASSIGNMENT\Weather Application
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-06-13T15:09:22.592Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-06-13T15:09:22.592Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"Westers Weather","name":"Westers Weather"}
+[debug] [2024-06-13T15:09:24.334Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-06-13T15:09:24.335Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-06-13T15:09:24.854Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at responseToError (C:\Users\oluwa\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\oluwa\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
